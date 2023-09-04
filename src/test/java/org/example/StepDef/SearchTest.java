@@ -8,7 +8,6 @@ import org.example.Pages.HomePage;
 import org.example.Pages.SearchPage;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
 
 import static org.example.StepDef.Hooks.driver;
 
