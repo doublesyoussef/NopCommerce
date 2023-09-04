@@ -7,62 +7,50 @@ import static org.example.StepDef.Hooks.driver;
 
 public class RegisterPage {
     public static WebElement GenderRadioButton() {
-        WebElement GenderRadioButton = driver.findElement(By.cssSelector("input[type=\"radio\"]"));
-        return GenderRadioButton;
+        return driver.findElement(By.cssSelector("input[type=\"radio\"]"));
     }
 
     public static WebElement firstName() {
-        WebElement firstName = driver.findElement(By.id("FirstName"));
-        return firstName;
+        return driver.findElement(By.id("FirstName"));
     }
 
     public static WebElement lastName() {
-        WebElement lastName = driver.findElement(By.id("LastName"));
-        return lastName;
+       return driver.findElement(By.id("LastName"));
     }
 
     public static WebElement BirthDay() {
-        WebElement BirthDay = driver.findElement(By.cssSelector("select[name=\"DateOfBirthDay\"]"));
-        return BirthDay;
+        return driver.findElement(By.cssSelector("select[name=\"DateOfBirthDay\"]"));
     }
 
     public static WebElement BirthMonth() {
-        WebElement BirthMonth = driver.findElement(By.cssSelector("select[name=\"DateOfBirthMonth\"]"));
-        return BirthMonth;
+        return driver.findElement(By.cssSelector("select[name=\"DateOfBirthMonth\"]"));
     }
 
     public static WebElement BirthYear() {
-        WebElement BirthYear = driver.findElement(By.cssSelector("select[name=\"DateOfBirthYear\"]"));
-        return BirthYear;
+        return driver.findElement(By.cssSelector("select[name=\"DateOfBirthYear\"]"));
     }
 
     public static WebElement Email() {
-        WebElement Email = driver.findElement(By.id("Email"));
-        return Email;
+        return driver.findElement(By.id("Email"));
     }
 
     public static WebElement CompanyName() {
-        WebElement CompanyName = driver.findElement(By.cssSelector("input[type=\"text\"][id=\"Company\"]"));
-        return CompanyName;
+        return driver.findElement(By.cssSelector("input[type=\"text\"][id=\"Company\"]"));
     }
 
     public static WebElement NewsletterCheckBox() {
-        WebElement NewsletterCheckBox = driver.findElement(By.cssSelector("input[type=\"checkbox\"][name=\"Newsletter\"][id=\"Newsletter\"]"));
-        return NewsletterCheckBox;
+        return driver.findElement(By.cssSelector("input[type=\"checkbox\"][name=\"Newsletter\"][id=\"Newsletter\"]"));
     }
 
     public static WebElement Password() {
-        WebElement Password = driver.findElement(By.id("Password"));
-        return Password;
+        return driver.findElement(By.id("Password"));
     }
 
     public static WebElement ConfirmPassword() {
-        WebElement ConfirmPassword = driver.findElement(By.id("ConfirmPassword"));
-        return ConfirmPassword;
+        return driver.findElement(By.id("ConfirmPassword"));
     }
 
     public static WebElement RegisterNowButton() {
-        WebElement RegisterNowButton = driver.findElement(By.id("register-button"));
-        return RegisterNowButton;
+        return driver.findElement(By.id("register-button"));
     }
 }

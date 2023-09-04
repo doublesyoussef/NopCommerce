@@ -7,7 +7,6 @@ import io.cucumber.java.en.When;
 import org.example.Pages.HomePage;
 import org.example.Pages.SearchPage;
 import org.example.Pages.ShoppingCartPage;
-import org.openqa.selenium.By;
 
 public class AddToCartTest {
     @Given("user searches for a product and clicks on the search button") //Step 1: User clicks on search field, type the product name in the search field and clicks on search button

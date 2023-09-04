@@ -7,9 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-import static java.lang.Thread.sleep;
-
-
 public class Hooks {
     public static WebDriver driver;
 

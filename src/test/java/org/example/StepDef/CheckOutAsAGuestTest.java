@@ -10,11 +10,9 @@ import org.example.Pages.*;
 import static org.example.StepDef.Hooks.driver;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import java.time.Duration;
 
 public class CheckOutAsAGuestTest {
     Faker faker = new Faker();

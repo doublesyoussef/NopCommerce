@@ -13,7 +13,6 @@ import org.testng.asserts.SoftAssert;
 import static org.example.StepDef.Hooks.driver;
 
 public class SearchTest {
-    SoftAssert softAssert = new SoftAssert();
 
     @Given("User clicks on the search field") //Step 1: User clicks on the search field
     public void SearchFieldClickable() {
